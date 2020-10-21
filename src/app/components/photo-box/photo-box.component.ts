@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import { Member } from 'src/app/models/member';
 
 @Component({
@@ -8,15 +8,13 @@ import { Member } from 'src/app/models/member';
 })
 export class PhotoBoxComponent implements OnInit {
 
+
+  @Input()
+  member : Member;
+
   constructor() { }
 
-  member : Member = {
-    _id: "1",
-    name: "Cherprang",
-    imgUrl: "https://i.ytimg.com/vi/6crAs7KLWl8/maxresdefault.jpg",
-    instagramId: "cherprang.bnk48official"
-  }
-
+  
   ngOnInit(): void {
   }
 
