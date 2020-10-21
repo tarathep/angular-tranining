@@ -6,12 +6,15 @@ import { AppComponent } from './app.component';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { PhotoBoxComponent } from './components/photo-box/photo-box.component';
 import { from } from 'rxjs';
+import { MemberDetailComponent } from './components/member-detail/member-detail.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     DashboardComponent,
-    PhotoBoxComponent
+    PhotoBoxComponent,
+    MemberDetailComponent
   ],
   imports: [
     BrowserModule,

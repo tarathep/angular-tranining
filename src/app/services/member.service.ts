@@ -16,4 +16,8 @@ export class MemberService {
   getMembers(): Observable<Member[]>{
     return this.httpClient.get<Member[]>(`${environment.apiUrl}/bnk/members`);
   }
+
+  getMemberByID(_id): Observable<Member>{
+    return this.httpClient.get<Member>(`${environment.apiUrl}/bnk/members/`+_id)
+  }
 }
