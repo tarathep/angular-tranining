@@ -62,6 +62,9 @@ module has
 ### create guards protect parh link to page admin
 > ng g guard guards/admin
 
+### create intercepter auth
+> ng g interceptor interceptors/token
+
 
 ## Unit Tests
 - issulated test focus tesing at backend
