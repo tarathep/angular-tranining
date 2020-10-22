@@ -53,7 +53,7 @@ module has
 ### create service
 > ng g service services/member
 
-### create model
+### create model /interface
 > ng g i models/member
 
 

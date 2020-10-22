@@ -9,6 +9,7 @@ import { from } from 'rxjs';
 import { MemberDetailComponent } from './components/member-detail/member-detail.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { LoginComponent } from './components/login/login.component';
+import { AdminComponent } from './components/admin/admin.component';
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import { LoginComponent } from './components/login/login.component';
     DashboardComponent,
     PhotoBoxComponent,
     MemberDetailComponent,
-    LoginComponent
+    LoginComponent,
+    AdminComponent
   ],
   imports: [
     BrowserModule,
