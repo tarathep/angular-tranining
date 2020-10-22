@@ -56,6 +56,8 @@ module has
 ### create model /interface
 > ng g i models/member
 
+### create validator
+> ng g v validators/common
 
 
 ## Unit Tests
