@@ -9,7 +9,7 @@ import { Token } from '../models/token';
   providedIn: 'root'
 })
 export class AuthService {
-
+  token: string;
   constructor(private httpClient: HttpClient) { }
 
   login(credential: Credential): Observable<Token>{

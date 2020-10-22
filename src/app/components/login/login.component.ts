@@ -34,7 +34,8 @@ export class LoginComponent implements OnInit {
     this.authService.login(this.form.value).subscribe({
       next: (result)=>{
         //auth pass
-        alert(result.token);
+        //is not reccommand !!
+        this.authService.token = result.token;
         this.router.navigate(['admin'])
       },
       error: (err) => {

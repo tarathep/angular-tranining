@@ -59,6 +59,9 @@ module has
 ### create validator
 > ng g v validators/common
 
+### create guards protect parh link to page admin
+> ng g guard guards/admin
+
 
 ## Unit Tests
 - issulated test focus tesing at backend
