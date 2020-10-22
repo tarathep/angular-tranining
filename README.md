@@ -28,7 +28,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 
 
-## ---------- Notem ----------
+## Note
 module
 - 1 app has modules
 module has 
