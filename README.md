@@ -25,3 +25,35 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+
+
+## ---------- Notem ----------
+module
+- 1 app has modules
+module has 
+- components
+- services
+
+### pre
+- nodejs
+
+### init 
+- install angular cli 
+> npm i -g @angular/cli
+- ng new project_name
+
+### install bootstap
+> npm i bootstrap
+
+### create components 
+> ng g c components/dashboard
+> ng g c components/photo-box
+
+### create service
+> ng g service services/member
+
+### create model
+> ng g i models/member
+
+
