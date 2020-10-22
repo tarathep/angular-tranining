@@ -8,15 +8,16 @@
                     </div>
                     <div class="form-group">
                         <label>Name</label>
-                        <input id="member-name" type="text" name="name" class="form-control" value="{{ member.name }}">
+                        <!-- ngmodel must import form module -->
+                        <input id="member-name" type="text" name="name" class="form-control" [value]="member.name">
                     </div>
                     <div class="form-group">
                         <label>Image URL</label>
-                        <input id="member-url" type="text" name="url" class="form-control" value="{{ member.imgUrl }}">
+                        <input id="member-url" type="text" name="url" class="form-control" [value]="member.imgUrl">
                     </div>
                     <div class="form-group">
                         <label>Instagram ID </label>
-                        <input id="member-instagramId" type="text" name="instagramId" class="form-control" value="{{ member.instagramId }}">
+                        <input id="member-instagram-id" type="text" name="instagramId" class="form-control" [value]="member.instagramId">
                     </div>
                 </form>
             </div>

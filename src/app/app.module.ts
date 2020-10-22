@@ -7,6 +7,8 @@ import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { PhotoBoxComponent } from './components/photo-box/photo-box.component';
 import { from } from 'rxjs';
 import { MemberDetailComponent } from './components/member-detail/member-detail.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { LoginComponent } from './components/login/login.component';
 
 
 @NgModule({
@@ -14,12 +16,15 @@ import { MemberDetailComponent } from './components/member-detail/member-detail.
     AppComponent,
     DashboardComponent,
     PhotoBoxComponent,
-    MemberDetailComponent
+    MemberDetailComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
+    FormsModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

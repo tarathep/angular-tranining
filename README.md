@@ -57,3 +57,12 @@ module has
 > ng g i models/member
 
 
+
+## Unit Tests
+- issulated test focus tesing at backend
+- components test
+- file will gernareate auto *.spec.ts
+
+### run test
+- npm run test
+
